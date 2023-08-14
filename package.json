@@ -1,0 +1,31 @@
+{
+  "name": "Social-Network-API",
+  "version": "1.0.0",
+  "description": "This is API applicaton for social network which allows users to share their thoughts, react to friends’ thoughts, and create a friend list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Etta0311/Social-Network-API.git"
+  },
+  "keywords": [],
+  "author": "Ettaho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Etta0311/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/Etta0311/Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mongodb": "^4.2.2",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
